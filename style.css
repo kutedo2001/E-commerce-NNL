@@ -26,9 +26,10 @@ header {
 
 header .logo {
   position: relative;
-  margin-left: 40px;
+  margin-left: 90px;
   transition: 0.6s;
-  width: 170px;
+  margin-top: 10px;
+  width: 70px;
 }
 
 .wrapper {
@@ -80,7 +81,7 @@ header .wrapper nav label a {
   width: 20%;
   left: 0;
   bottom: 0;
-  background: linear-gradient(30deg, #27920cb1, #00f7ffa8);
+  background: linear-gradient(30deg, #264a80b1, #00f7ffa8);
   border-radius: 50px;
   transition: 0.6s cubic-bezier(0.6, -0.55, 0.265, 1.55);
 }
@@ -143,7 +144,7 @@ header .user nav .nav a {
 }
 
 .btn:hover {
-  background: linear-gradient(30deg, #2fb30e, #159ba0);
+  background: linear-gradient(30deg, #0368ffb1, #00f7ffa8);
   transition-delay: .3s;
   color: rgb(255, 255, 255);
 }
@@ -153,7 +154,7 @@ header .user nav .nav a {
   position: absolute;
   width: 100%;
   height: 4px;
-  background: #0d6405f1;
+  background: #264a80b1;
   transform: scaleX(0);
   transition: all .4s;
   transition-delay: .4s;
@@ -164,7 +165,7 @@ header .user nav .nav a {
   width: 4px;
   height: 100%;
   position: absolute;
-  background: #0d6405f1;
+  background: #264a80b1;
   transform: scaleY(0);
   transition: all 0.4s;
 }
@@ -269,7 +270,7 @@ header .user nav .nav #right:hover {
 .servicios {
   padding: 100px 0px;
   box-sizing: border-box;
-  background: linear-gradient(30deg, #2fb30e, #159ba0);
+  background: linear-gradient(30deg, #0368ff, #1b82a2);
 }
 
 .contenedor {
@@ -337,7 +338,7 @@ header .user nav .nav #right:hover {
 }
 
 .contenedor .columna .box .precio h4 {
-  font-size: 60px;
+  font-size: 40px;
   color: #e6ab6d;
   margin: 10px 0;
   padding: 0px;
@@ -458,7 +459,7 @@ header .user nav .nav #right:hover {
   transform: translateY(-100px);
   transition: 0.5s;
   opacity: 1;
-  box-shadow: 0px 0px 2px #14f339;
+  box-shadow: 0px 0px 2px #264a80b1;
 }
 
 .contenedorcarta .cartas:hover .more a {
@@ -471,9 +472,9 @@ header .user nav .nav #right:hover {
 
 .contenedorcarta .cartas .more a:hover {
   font-weight: bold;
-  text-shadow: 1px 1px 2px #14f339;
+  text-shadow: 1px 1px 2px #264a80b1;
   transform: rotate(-5deg)skew(5deg);
-  border: 3px solid #1cae34;
+  border: 3px solid #264a80b1;
 }
 
 
@@ -624,7 +625,7 @@ header .user nav .nav #right:hover {
 }
 
 .iconos a:nth-child(1) .layer span {
-  box-shadow: -1px 1px 3px #14f339;
+  box-shadow: -1px 1px 3px #264a80b1;
 }
 
 .iconos a .textito {
@@ -668,7 +669,7 @@ header .user nav .nav #right:hover {
   line-height: 35px;
   text-align: center;
   font-weight: bold;
-  background: rgb(12, 162, 97);
+  background: #264a80b1;
 }
 
 /*Fin de iconos*/
