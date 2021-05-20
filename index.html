@@ -1,239 +1,564 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title></title>
+    <meta charset="UTF-8">
+    <title>New Normal Life</title>
     <link rel="stylesheet" href="style.css">
-    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
-    <link rel="shortcut icon" href="imagenes/rota-top.png">
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <link rel="shortcut icon" href="imagenes/logonnlsintexto.png">
 </head>
 
 <body>
-    <div class="hold">
-        <div class="header">
-            <div class="container">
-                <div id="logo"><img src="imagenes/logo.png" alt="">
+    <!--navegacion principal-->
+    <header>
+        <a href="#" class="logo">
+            <img src="imagenes/logonnlsintexto.png">
+        </a>
+        <div class="wrapper">
+            <nav>
+                <input type="radio" name="tab" id="Home" checked>
+                <input type="radio" name="tab" id="About">
+                <input type="radio" name="tab" id="Services">
+                <input type="radio" name="tab" id="ContactUs">
+                <input type="radio" name="tab" id="Team">
+                <label for="Home" class="Home"><a href="#home">Home</a></label>
+                <label for="About" class="About"><a href="#servicio">Services</a></label>
+                <label for="Services" class="Services"><a href="#team">Team</a></label>
+                <label for="ContactUs" class="ContactUs"><a href="#about">About Us</a></label>
+                <label for="Team" class="Team"><a href="#footer">Contact</a></label>
+                <div class="tab"></div>
+            </nav>
+        </div>
+        <div class="user">
+            <nav>
+                <div class="nav left">
+                    <div class="btn left" id="left">
+                        <a href="Login/login.html">
+                            <ion-icon name="person-outline"></ion-icon>User
+                        </a>
+                        <div class="d1"></div>
+                        <div class="d2"></div>
+                        <div class="d3"></div>
+                        <div class="d4"></div>
+                    </div>
                 </div>
-                <ul class="nav">
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="localhost/JoomlaRotaScott/index.php?option=com_content&view=article&id=5">Cursos</a></li>
-                    <li><a href="#">Tienda</a></li>
-                    <li><a href="#">Contacto</a></li>
-                </ul>
-                <ul class="nav3">
-                    <li><a href="#">
-                            <ion-icon name="basket"></ion-icon>
+                <div class="nav left">
+                    <div class="btn left" id="right">
+                        <a href="Menu/Menu.html">
+                            <ion-icon name="layers-outline"></ion-icon>Menu
                         </a>
-                    </li>
-                    <li><a href="login.html">
-                            <ion-icon name="person"></ion-icon>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <div class="info">
-                <img class="icon-info-sign" src="imagenes/monstruito.png">
+                        <div class="d1"></div>
+                        <div class="d2"></div>
+                        <div class="d3"></div>
+                        <div class="d4"></div>
+                    </div>
+                </div>
+            </nav>
+        </div>
 
-                <span class="extra-info"><a href="/localhost/JoomlaRotaScott/index.php">
-                        Leer las politicas de coockies de nuestra pagina web</a>
-                </span>
+    </header>
+    <!--fin navegacion principal-->
+    <!--titulo-->
+    <section class="titulo" id="home">
+    </section>
+    <!--fin del titulo-->
+    <!--servicios-->
+    <div class="container" id="servicio">
+        <!--tarjetas productos-->
+        <section class="servicios">
+            <h1>Servicios de domótica para todos los usuarios
+            </h1>
+            <div class="contenedor">
+                <div class="linea">
+                    <div class="columna">
+                        <div class="box">
+                            <div class="titulo1"><i class="fa fa-paper-plane"></i>
+                                <h2>Cámaras</h2>
+                            </div>
+                            <div class="precio">
+                                <h4>Desde<sup> 50 €</sup></h4>
+                            </div>
+                            <div class="opciones">
+                                <ul>
+                                    <li><i class="fa fa-check"></i>Instalación</li>
+                                    <li><i class="fa fa-check"></i>Configuración</li>
+                                    <li><i class="fa fa-check"></i>Implementación</li>
+                                    <li><i class="fa fa-check"></i>Reparación</li>
+                                </ul>
+                            </div>
+                            <a href="#">Información</a>
+                        </div>
+                    </div>
+                    <div class="columna">
+                        <div class="box">
+                            <div class="titulo1"><i class="fa fa-paper-plane"></i>
+                                <h2>Sensores</h2>
+                            </div>
+                            <div class="precio">
+                                <h4>Desde<sup> 45 €</sup></h4>
+                            </div>
+                            <div class="opciones">
+                                <ul>
+                                    <li><i class="fa fa-check"></i>Instalación</li>
+                                    <li><i class="fa fa-check"></i>Configuración</li>
+                                    <li><i class="fa fa-check"></i>Implementación</li>
+                                    <li><i class="fa fa-check"></i>Reparación</li>
+                                </ul>
+                            </div>
+                            <a href="#">Información</a>
+                        </div>
+                    </div>
+                    <div class="columna">
+                        <div class="box">
+                            <div class="titulo1"><i class="fa fa-paper-plane"></i>
+                                <h2>Seguridad</h2>
+                            </div>
+                            <div class="precio">
+                                <h4>Desde<sup> 70 €</sup></h4>
+                            </div>
+                            <div class="opciones">
+                                <ul>
+                                    <li><i class="fa fa-check"></i>Instalación</li>
+                                    <li><i class="fa fa-check"></i>Configuración</li>
+                                    <li><i class="fa fa-check"></i>Implementación</li>
+                                    <li><i class="fa fa-check"></i>Reparación</li>
+                                </ul>
+                            </div>
+                            <a href="#">Información</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="contenedor" id="contenedor2">
+                <div class="linea">
+                    <div class="columna">
+                        <div class="box">
+                            <div class="titulo1"><i class="fa fa-paper-plane"></i>
+                                <h2>Luces</h2>
+                            </div>
+                            <div class="precio">
+                                <h4>Desde<sup> 30 €</sup></h4>
+                            </div>
+                            <div class="opciones">
+                                <ul>
+                                    <li><i class="fa fa-check"></i>Instalación</li>
+                                    <li><i class="fa fa-check"></i>Configuración</li>
+                                    <li><i class="fa fa-check"></i>Implementación</li>
+                                    <li><i class="fa fa-check"></i>Reparación</li>
+                                </ul>
+                            </div>
+                            <a href="#">Información</a>
+                        </div>
+                    </div>
+                    <div class="columna">
+                        <div class="box">
+                            <div class="titulo1"><i class="fa fa-paper-plane"></i>
+                                <h2>Ventanas</h2>
+                            </div>
+                            <div class="precio">
+                                <h4>Desde<sup> 80 €</sup></h4>
+                            </div>
+                            <div class="opciones">
+                                <ul>
+                                    <li><i class="fa fa-check"></i>Instalación</li>
+                                    <li><i class="fa fa-check"></i>Configuración</li>
+                                    <li><i class="fa fa-check"></i>Implementación</li>
+                                    <li><i class="fa fa-check"></i>Reparación</li>
+                                </ul>
+                            </div>
+                            <a href="#">Información</a>
+                        </div>
+                    </div>
+                    <div class="columna">
+                        <div class="box">
+                            <div class="titulo1"><i class="fa fa-paper-plane"></i>
+                                <h2>Persianas</h2>
+                            </div>
+                            <div class="precio">
+                                <h4>Desde<sup> 60 €</sup></h4>
+                            </div>
+                            <div class="opciones">
+                                <ul>
+                                    <li><i class="fa fa-check"></i>Instalación</li>
+                                    <li><i class="fa fa-check"></i>Configuración</li>
+                                    <li><i class="fa fa-check"></i>Implementación</li>
+                                    <li><i class="fa fa-check"></i>Reparación</li>
+                                </ul>
+                            </div>
+                            <a href="#">Información</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!--Fin tarjetas productos-->
+
+    <!--cartas-->
+    <div class="cartitas" id="team">
+        <section class="workers">
+            <div class="contenedorcarta">
+                <div class="cartas">
+                    <div class="contenido">
+                        <div class="imagen">
+                            <img src="imagenes/EDU.jpg" alt="">
+                        </div>
+                        <div class="contenidotext">
+                            <h3>Eduard<br><span>Miembro</span></h3>
+                        </div>
+                    </div>
+                    <ul class="cli">
+                        <li style="--i:1">
+                            <div class="iconos"><a href="https://github.com/kutedo2001">
+                                    <div class="layer">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span class="fab">
+                                            <ion-icon name="logo-github"></ion-icon>
+                                        </span>
+                                    </div>
+                                    <div class="textito" id="face">Github</div>
+                                </a>
+                            </div>
+                        </li>
+                        <li style="--i:1">
+                            <div class="iconos"><a href="https://twitter.com/kutedo19">
+                                    <div class="layer">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span class="fab">
+                                            <ion-icon name="logo-twitter"></ion-icon>
+                                        </span>
+                                    </div>
+                                    <div class="textito" id="twitt">Twitter</div>
+                                </a>
+                            </div>
+                        </li>
+                        <li style="--i:1">
+                            <div class="iconos"><a href="https://www.instagram.com/eduard_castello/">
+                                    <div class="layer">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span class="fab">
+                                            <ion-icon name="logo-instagram"></ion-icon>
+                                        </span>
+                                    </div>
+                                    <div class="textito">Instagram</div>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="more">
+                        <a href="edu/moreedu.html">More Info</a>
+                    </div>
+                </div>
+                <div class="cartas">
+                    <div class="contenido">
+                        <div class="imagen">
+                            <img src="imagenes/alex.jpg" alt="">
+                        </div>
+                        <div class="contenidotext">
+                            <h3>Alex<br><span>Miembro</span></h3>
+                        </div>
+                    </div>
+                    <ul class="cli">
+                        <li style="--i:1">
+                            <div class="iconos"><a href="https://github.com/kutedo2001">
+                                    <div class="layer">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span class="fab">
+                                            <ion-icon name="logo-github"></ion-icon>
+                                        </span>
+                                    </div>
+                                    <div class="textito" id="face">Github</div>
+                                </a>
+                            </div>
+                        </li>
+                        <li style="--i:1">
+                            <div class="iconos"><a href="https://twitter.com/kutedo19">
+                                    <div class="layer">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span class="fab">
+                                            <ion-icon name="logo-twitter"></ion-icon>
+                                        </span>
+                                    </div>
+                                    <div class="textito" id="twitt">Twitter</div>
+                                </a>
+                            </div>
+                        </li>
+                        <li style="--i:1">
+                            <div class="iconos"><a href="https://www.instagram.com/eduard_castello/">
+                                    <div class="layer">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span class="fab">
+                                            <ion-icon name="logo-instagram"></ion-icon>
+                                        </span>
+                                    </div>
+                                    <div class="textito">Instagram</div>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="more">
+                        <a href="alex/morealex.html">More Info</a>
+                    </div>
+                </div>
+                <div class="cartas">
+                    <div class="contenido">
+                        <div class="imagen">
+                            <img src="imagenes/fer.jpg" alt="">
+                        </div>
+                        <div class="contenidotext">
+                            <h3>Fernando<br><span>Miembro</span></h3>
+                        </div>
+                    </div>
+                    <ul class="cli">
+                        <li style="--i:1">
+                            <div class="iconos"><a href="https://github.com/kutedo2001">
+                                    <div class="layer">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span class="fab">
+                                            <ion-icon name="logo-github"></ion-icon>
+                                        </span>
+                                    </div>
+                                    <div class="textito" id="face">Github</div>
+                                </a>
+                            </div>
+                        </li>
+                        <li style="--i:1">
+                            <div class="iconos"><a href="https://twitter.com/kutedo19">
+                                    <div class="layer">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span class="fab">
+                                            <ion-icon name="logo-twitter"></ion-icon>
+                                        </span>
+                                    </div>
+                                    <div class="textito" id="twitt">Twitter</div>
+                                </a>
+                            </div>
+                        </li>
+                        <li style="--i:1">
+                            <div class="iconos"><a href="https://www.instagram.com/eduard_castello/">
+                                    <div class="layer">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span class="fab">
+                                            <ion-icon name="logo-instagram"></ion-icon>
+                                        </span>
+                                    </div>
+                                    <div class="textito">Instagram</div>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="more">
+                        <a href="fer/morefer.html">More Info</a>
+                    </div>
+                </div>
+                <div class="cartas">
+                    <div class="contenido">
+                        <div class="imagen">
+                            <img src="imagenes/pala.jpg" alt="">
+                        </div>
+                        <div class="contenidotext">
+                            <h3>Sergi<br><span>Miembro</span></h3>
+                        </div>
+                    </div>
+                    <ul class="cli">
+                        <li style="--i:1">
+                            <div class="iconos"><a href="https://github.com/kutedo2001">
+                                    <div class="layer">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span class="fab">
+                                            <ion-icon name="logo-github"></ion-icon>
+                                        </span>
+                                    </div>
+                                    <div class="textito" id="face">Github</div>
+                                </a>
+                            </div>
+                        </li>
+                        <li style="--i:1">
+                            <div class="iconos"><a href="https://twitter.com/kutedo19">
+                                    <div class="layer">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span class="fab">
+                                            <ion-icon name="logo-twitter"></ion-icon>
+                                        </span>
+                                    </div>
+                                    <div class="textito" id="twitt">Twitter</div>
+                                </a>
+                            </div>
+                        </li>
+                        <li style="--i:1">
+                            <div class="iconos"><a href="https://www.instagram.com/eduard_castello/">
+                                    <div class="layer">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span class="fab">
+                                            <ion-icon name="logo-instagram"></ion-icon>
+                                        </span>
+                                    </div>
+                                    <div class="textito">Instagram</div>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="more">
+                        <a href="pala/morepala.html" id="about">More Info</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!--fin de cartas-->
+    <!--Conocenos-->
+    <div class="about-section" id="abouts">
+        <div class="containerAU">
+            <div class="lin">
+                <div class="section-title">
+                    <h1>About Us</h1>
+                </div>
+            </div>
+            <div class="lin">
+                <div class="inner-container">
+                    <div class="inner-box">
+                        <div class="izqui">
+                            <div class="cartAU">
+                                <div class="imgca">
+                                    <img src="imagenes/nnllogomock.png" alt="">
+                                </div>
+                                <div class="detalles">
+                                    <h2>More Info</h2>
+                                    <p>Información relacionada sobre New Normal Life, como ha sido creada, que ofrece,
+                                        que puedes encontrar en sus tiendas y en su web.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dere">
+                            <h1>New Normal Life</h1>
+                            <p class="tt">New Normal Life es una empresa dedicada al sector de la domótica, tanto en
+                                casas privadas como para empresas de deporte o la seguridad de tu propia empresa, es una
+                                empresa integramente creada gracias a Osix Enterprise, gracias a la cual se han creado
+                                las estructuras, tanto de nuestras sedes, como la estructura de nuestras redes, New
+                                Normal Life tiene una unica sede que sigue todas las medidas de seguridad en LLeida,
+                                25005. en la cual puedes realizar cursos de aprendizaje sobre programación de
+                                videojuegos y visualizar y probar todos nuestros productos de domótica, tanto como pedir
+                                una reparación de los mismos.
+                            </p>
+                            <div class="rede">
+                                <span>Instagram</span>
+                                <span>Twitter</span>
+                                <span>Github</span>
+                            </div>
+                            <div class="soci">
+                                <a href="https://www.instagram.com/osix.es/">
+                                    <ion-icon class="ico insta" name="logo-instagram"></ion-icon>
+                                </a>
+                                <a href="https://twitter.com/kutedo19">
+                                    <ion-icon class="ico twi" name="logo-twitter"></ion-icon>
+                                </a>
+                                <a href="https://github.com/Osix-Enterprise">
+                                    <ion-icon class="ico fac" name="logo-github"></ion-icon>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-        <div class="section">
-            <div class="container1">
-                <div class="buscar">
-                    <input class="buscar" type="search" placeholder="Buscar"><button type="button">
-                        <ion-icon name="search"></ion-icon>
-                    </button>
-                </div>
+    <!--fin de conocenos-->
+    <!--footer-->
+    <footer>
+        <div class="foot" id="footer">
+            <div class="sect uno">
+                <h2>Esta web</h2>
+                <p>La web de New Normal Life, es un proyecto educativo y personal a partes iguales, está, está diseñada
+                    y programada por Eduard Castelló, el CEO de la propia empresa Osix Enterprise, tambien ficticia, cada linea de
+                    código a sido escrita a mano, tanto de HTML como de CSS y sin utilizar ningún código de JavaScript,
+                    esto a sido posible gracias a el estudio y la repeticios de muchas lineas de programación encontrada
+                    por internet. No obstante New Normal Life es una web totalmente legítima y no vulnera ningún
+                    derecho, ni la web, ni New Normal Life como empresa dueña de la misma.</p>
+                <ul class="lis">
+                    <li><a href="https://www.instagram.com/eduard_castello/">
+                            <ion-icon class="dec" name="logo-instagram"></ion-icon>
+                        </a></li>
+                    <li><a href="https://twitter.com/kutedo19">
+                            <ion-icon class="dec" name="logo-twitter"></ion-icon>
+                        </a></li>
+                    <li><a href="https://github.com/kutedo2001">
+                            <ion-icon class="dec" name="logo-github"></ion-icon>
+                        </a></li>
+                    <li><a href="https://www.linkedin.com/in/eduard-castelló-55a62614b">
+                            <ion-icon class="dec" name="logo-linkedin"></ion-icon>
+                        </a></li>
+                </ul>
             </div>
-        </div>
-        <div class="section">
-            <div class="slider">
-                <div class="container slidercontent">
-                    <h1 class="hero">Curso de Conducción</h1>
-                    <h2 class="hero">Solo para patinetes eléctricos</h2>
-                    <div class="call"><a href="/localhost/moodle"><span>Entrar</span></a></div>
-                </div>
+            <div class="sect dos">
+                <h2>Enlaces</h2>
+                <ul>
+                    <li><a href="">Nosotros</a></li>
+                    <li><a href="">Ayuda</a></li>
+                    <li><a href="detalles/index.html">Politica de privacidad</a></li>
+                    <li><a href="detalles/index.html">Terminos y condiciones</a></li>
+                    <li><a href="">Contactar</a></li>
+                </ul>
             </div>
-        </div>
-        <div class="section">
-            <div class="container">
-                <div class="col four">
-                    <h1 class="icon"><img src="imagenes/iconos/electric-scooter.png" alt=""></h1>
-                    <h1 class="service">Patinetes electricos</h1>
-                    <p>Compra los mejores Patinetes eléctricos a un precio muy economico</p>
-                </div>
-                <div class="col four">
-                    <h1 class="icon"><img src="imagenes/iconos/bicycle.png" alt=""></h1>
-                    <h1 class="service">Bicicletas eléctricas</h1>
-                    <p>Compra las mejores Bicicletas electricas a un precio muy economico</p>
-                </div>
-                <div class="responsivegroup"></div>
-                <div class="col four">
-                    <h1 class="icon"><img src="imagenes/iconos/skateboard.png" alt=""></h1>
-                    <h1 class="service">Skates electricos</h1>
-                    <p>Compra los mejores Skates electricos a un precio muy economico</p>
-                </div>
-                <div class="col four">
-                    <h1 class="icon"><img src="imagenes/iconos/hoverboard.png" alt=""></h1>
-                    <h1 class="service">Hoverboards</h1>
-                    <p>Compra los mejores Hoveboards a un precio muy economico</p>
-                </div>
-            </div>
-        </div>
-        <div class="section bg">
-            <div class="container">
-                <h1>Complementos</h1>
-                <h2>Compra aquí tus mejoras!</h2>
-                <div class="col three bg nopad pointer">
-                    <div class="imgholder1"></div>
-                    <h1 class="feature">Luces</h1>
-                    <p>Luces frontales y traseras para tus vehiculos</p>
-                </div>
-                <div class="col three bg nopad pointer">
-                    <div class="imgholder2"></div>
-                    <h1 class="feature">Ruedas</h1>
-                    <p>Recambios y ruedas de todos los tipos</p>
-                </div>
-                <div class="col three bg nopad pointer">
-                    <div class="imgholder3"></div>
-                    <h1 class="feature">Baterias</h1>
-                    <p>Las mejores marcas de baterias para no perder ni un kilometro</p>
-                </div>
-                <div class="group margin"></div>
-                <div class="col three bg nopad pointer">
-                    <div class="imgholder4"></div>
-                    <h1 class="feature">Sillas</h1>
-                    <p>La comodidad que necesites a precio ideal</p>
-                </div>
-                <div class="col three bg nopad pointer">
-                    <div class="imgholder5"></div>
-                    <h1 class="feature">Acelerometros</h1>
-                    <p>Diferentes tipos de acelerometros tanto par bicicletas o patinetes</p>
-                </div>
-                <div class="col three bg nopad pointer">
-                    <div class="imgholder6"></div>
-                    <h1 class="feature">Sensores</h1>
-                    <p>Camaras, sensores de proximidad o retroalimentacion, lo que quieras</p>
-                </div>
-            </div>
-        </div>
-        <div class="section">
-            <div class="container">
-                <h1>Mejores Productos</h1>
-                <h2>Descubre nuestros mejores productos</h2>
-                <div class="col two">
-                    <h1 class="icon"><img src="imagenes/iconos/electric-scooter.png" alt=""></h1>
-                    <h1 class="feature side">Xiaomi 365</h1>
-                    <p class="side">Espectacular patinete electrico gran durabilidad, velocidad maxima de 35km/h</p>
-                </div>
-                <div class="col two">
-                    <h1 class="icon"><img src="imagenes/iconos/skateboard.png" alt=""></h1>
-                    <h1 class="feature side">Skate superchuli</h1>
-                    <p class="side">Skateboart con una fina pintura de madera capaz de alcanzr los 25km/h</p>
-                </div>
-                <div class="group margin"></div>
-                <div class="col two">
-                    <h1 class="icon"><img src="imagenes/iconos/light.png" alt=""></h1>
-                    <h1 class="feature side">Luz frontal</h1>
-                    <p class="side">Luz led de 10k lumens, perfecta para derretir retinas</p>
-                </div>
-                <div class="col two">
-                    <h1 class="icon"><img src="imagenes/iconos/speedometer.png" alt=""></h1>
-                    <h1 class="feature side">Acelerometro 268</h1>
-                    <p class="side">El perfecto acelerometro, tanto para tu bicicleta o tu patinete</p>
-                </div>
-            </div>
-        </div>
-        <div class="section bg">
-            <div class="container">
-                <h1>Ofertas</h1>
-                <h2>Los mejores productos al mejor precio</h2>
-                <div class="col two bg margin extrapad">
-                    <h1 class="icon"><img src="imagenes/iconos/electric-scooter.png" alt=""></h1>
-                    <span class="feature side">Patinete superguay</span><span class="side"> - Patinetes
-                        electricos</span>
-                    <p class="side">Espectacular patinete electrico gran durabilidad, velocidad maxima de 35km/h</p>
-                </div>
-                <div class="col two bg margin extrapad">
-                    <h1 class="icon"><img src="imagenes/iconos/light.png" alt=""></h1>
-                    <span class="feature side">Luz espacial</span><span class="side"> - Complementos</span>
-                    <p class="side">Luz led de 10k lumens, perfecta para derretir retinas</p>
-                </div>
-                <div class="group margin"></div>
-                <div class="col two bg margin extrapad">
-                    <h1 class="icon"><img src="imagenes/iconos/bicycle.png" alt=""></h1>
-                    <span class="feature side">Bicicleta Xiaomi</span><span class="side"> - Bicicletas electricas</span>
-                    <p class="side">Bicicleta con una fina pintura de madera capaz de alcanzr los 25km/h</p>
-                </div>
-                <div class="col two bg margin extrapad">
-                    <h1 class="icon"><img src="imagenes/iconos/saddle.png" alt=""></h1>
-                    <span class="feature side">Silla de carbono</span><span class="side"> - Complementos</span>
-                    <p class="side">La mejor silla para la comodidad en largos tramos de ciclismo
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="section">
-            <div class="container">
-                <ul class="nav1">
-                    <li><img src="imagenes/iconos/entrega.png" alt=""><a href="#">ENTREGA URGENTE</a></li>
-                    <li><img src="imagenes/iconos/construct 1.png" alt=""><a href="#">PERSONAL CUALIFICADO</a></li>
-                    <li><img src="imagenes/iconos/headset 1.png" alt=""><a href="#">SOPORTE</a></li>
-                    <li><img src="imagenes/iconos/wallet(1) 1.png" alt=""><a href="#">SEGURIDAD DE PAGO</a></li>
+            <div class="sect tres">
+                <h2>Información de contacto</h2>
+                <ul class="inf">
+                    <li><span>
+                            <ion-icon class="dec" name="locate-outline"></ion-icon>
+                        </span><span>LLeida<br>Cronista Muntaner<br>25001</span></li>
+                    <li><span>
+                            <ion-icon class="dec" name="call-outline"></ion-icon>
+                        </span>
+                        <p><a href="">+34 644166918</a><br><a href="">973 21 21 04</a></p>
+                    </li>
+                    <li><span>
+                            <ion-icon class="dec" name="mail-outline"></ion-icon>
+                        </span>
+                        <p><a href="">1secuncala@gmail.com</a></p>
+                    </li>
                 </ul>
             </div>
         </div>
-
-        <div class="section">
-            <div class="footer">
-                <div class="container white">
-                    <div class="col four left">
-                        <h1>Informacion</h1>
-                        <p>Contacto</p>
-                        <p>Envios y devoluciones</p>
-                        <p>Condiciones generales</p>
-                        <p>FAQ</p>
-                        <p>Mapa web</p>
-                    </div>
-                    <div class="col four left">
-                        <h1>Sobre Nosotros</h1>
-                        <p>Quienes somos</p>
-                        <p>Contacto</p>
-                        <p>Aviso legal</p>
-                        <p>Politicas de privacidad</p>
-                        <p>Politica de cookies</p>
-                    </div>
-                    <div class="col four left">
-                        <h1>Cuenta</h1>
-                        <p>Mi cuenta</p>
-                        <p>Mis pedidos</p>
-                        <p>Mis datos</p>
-                        <p>Mis direcciones</p>
-                    </div>
-                    <div class="col four left">
-                        <h1>Contacto</h1>
-                        <ul class="nav2">
-                            <li><img src="imagenes/iconos/mail-outline 1.png" alt=""><a href="#">Gmail</a></li>
-                            <li><img src="imagenes/iconos/logo-twitter 1.png" alt=""><a href="#">Twitter</a></li>
-                            <li><img src="imagenes/iconos/facebook.png" alt=""><a href="#">Facebook</a></li>
-                            <li><img src="imagenes/iconos/logo-linkedin 1.png" alt=""><a href="#">Linkedin</a></li>
-                        </ul>
-                    </div>
-                    <div class="col two1">
-                        <input type="search" placeholder="e-mail"><button type="button">
-                            <img src="https://img.icons8.com/ios-glyphs/30/ffffff/filled-sent.png">
-                        </button>
-                        <input type="checkbox" class="form-square" id="check-one">
-                        <label for="check-one">Acepto recibir ofertas de Rota-Scott
-                        </label>
-                    </div>
-                </div>
-            </div>
-        </div>
+    </footer>
+    <div class="copi">
+        <p>Copyright © Eduard Castelló. Todos los derechos reservados</p>
+    </div>
 </body>
 
 </html>
